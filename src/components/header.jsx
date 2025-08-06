@@ -1,5 +1,6 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
+import HeaderMenu from "./headerMenu.jsx";
 import gooseImg from "../assets/goose.png";
 
 
@@ -22,9 +23,7 @@ function Header() {
                 </p>
             </div>
         </Link>
-        <nav>
-            <Link to="/#">About us</Link>
-        </nav>
+        <HeaderMenu />
     </header>
     );
 };
