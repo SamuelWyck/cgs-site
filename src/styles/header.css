@@ -6,6 +6,7 @@ header {
     padding: .5rem;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 header a {
@@ -33,18 +34,12 @@ header a {
     background-color: var(--secondary-color);
     padding: .2rem .5rem;
     text-align: center;
+    color: var(--text-dark);
+    border-radius: 0 10px 10px 10px;
 }
 
 .short-title {
     display: none;
-}
-
-header nav a {
-    color: var(--text);
-}
-
-header nav a:active {
-    color: var(--text);
 }
 
 
