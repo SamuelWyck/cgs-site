@@ -16,7 +16,7 @@ function HomePage() {
             </picture>
             <div className="tagline-wrapper">
                 <p className="tagline">
-                    Security where it matters, when it matters. - CGS
+                    Guarding the flock one byte at time
                 </p>
             </div>
         </section>
