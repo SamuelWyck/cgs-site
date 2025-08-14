@@ -28,6 +28,7 @@ function HeaderMenu() {
                 menuDropDown.classList.add("hidden");
             }
         });
+        
         return function() {
             document.removeEventListener("click", callBack);
         };
