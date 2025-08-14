@@ -10,7 +10,7 @@ header nav a {
 .menu-btn {
     cursor: pointer;
     background: none;
-    border: 2px solid var(--primary-color);
+    border: none;
     display: flex;
     outline: none;
     border-radius: 5px;
@@ -18,7 +18,15 @@ header nav a {
 }
 
 .menu-btn:hover, .menu-btn:focus {
-    border-color: var(--text-dark);
+    filter:
+    brightness(0) 
+    saturate(100%) 
+    invert(100%) 
+    sepia(21%) 
+    saturate(229%) 
+    hue-rotate(178deg) 
+    brightness(110%) 
+    contrast(90%);
 }
 
 .menu-img {
@@ -33,6 +41,7 @@ header .hidden {
     position: absolute;
     top: 100%;
     background-color: var(--primary-color);
+    background-image: var(--primary-gradient);
     width: 100%;
     display: flex;
     flex-direction: column;
