@@ -12,7 +12,9 @@ html {
 	font-size: 16px;
 	font-family: "roboto", sans-serif;
 	--primary-color: hsl(132, 27%, 63%);
+	--primary-color-gradient: hsl(172, 31%, 65%);
 	--text-dark: hsl(0, 0%, 5%);
 	--text-light: hsl(0, 0%, 95%);
 	--secondary-color: hsl(0, 0%, 95%);
+	--primary-gradient: linear-gradient(45deg, var(--primary-color) 10%, var(--primary-color-gradient));
 }
