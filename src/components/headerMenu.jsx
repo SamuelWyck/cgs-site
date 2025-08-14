@@ -28,7 +28,9 @@ function HeaderMenu() {
                 menuDropDown.classList.add("hidden");
             }
         });
-        return document.removeEventListener("click", callBack);
+        return function() {
+            document.removeEventListener("click", callBack);
+        };
     }, []);
     
     
@@ -44,11 +46,11 @@ function HeaderMenu() {
         </button>
         <nav className="menu-drop-down hidden">
             <Link to="/#">Services</Link>
-            <Link to="/#">About us</Link>
+            <Link to="/contact">Contact us</Link>
         </nav>
         <nav className="header-nav">
             <Link to="/#">Services</Link>
-            <Link to="/#">About us</Link>
+            <Link to="/contact">Contact us</Link>
         </nav>
         </>
     );
