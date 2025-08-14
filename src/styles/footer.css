@@ -3,6 +3,7 @@ footer {
     padding: 1rem 0;
     display: flex;
     justify-content: center;
+    background-image: var(--primary-gradient);
 }
 
 footer p {
