@@ -5,7 +5,7 @@ main.contact-page {
     justify-content: center;
     gap: 5rem;
     padding: 2rem 1rem 5rem 1rem;
-    background-image: linear-gradient(var(--primary-color) -5%, var(--secondary-color) 10% 90%, var(--primary-color) 102%);
+    background-image: linear-gradient(var(--primary-color) -5%, var(--secondary-color) 30% 65%, var(--primary-color) 102%);
 }
 
 .contact-title {
@@ -53,4 +53,13 @@ main.contact-page {
     contrast(100%);
     width: 60px;
     height: 60px;
+}
+
+
+
+@media only screen and (height <= 800px) {
+    .contact-title {
+        color: var(--secondary-color);
+        border-color: var(--secondary-color);
+    }
 }
