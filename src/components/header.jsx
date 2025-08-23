@@ -14,11 +14,11 @@ function Header() {
                     <img src={gooseImg} alt="goose" className="logo"/>
                 </div>
                 <p className="banner-title">
-                    C<span className="long-title">yber</span>
+                    C<span className="long-title">yber </span>
                     <span className="short-title">.</span>
-                    G<span className="long-title">oose</span>
+                    G<span className="long-title">oose </span>
                     <span className="short-title">.</span>
-                    S<span className="long-title">ystems</span>
+                    S<span className="long-title">ystems </span>
                     <span className="short-title">.</span>
                 </p>
             </div>
