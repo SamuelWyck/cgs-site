@@ -16,6 +16,6 @@ html {
 	--text-dark: hsl(0, 0%, 5%);
 	--text-light: hsl(0, 0%, 95%);
 	--secondary-color: #EEF4ED;
-	--secondary-color: #fe9132;
+	--banner-color: #fe9132;
 	--primary-gradient: linear-gradient(45deg, var(--primary-color) 10%, var(--primary-color-gradient));
 }
