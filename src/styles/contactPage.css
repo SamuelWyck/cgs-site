@@ -5,7 +5,7 @@ main.contact-page {
     justify-content: center;
     gap: 5rem;
     padding: 2rem 1rem 5rem 1rem;
-    background-image: linear-gradient(var(--primary-color) -5%, var(--secondary-color) 30% 65%, var(--primary-color) 102%);
+    background-image: linear-gradient(var(--primary-color) -40%, var(--secondary-color) 30% 65%, var(--primary-color) 142%);
 }
 
 .contact-title {
