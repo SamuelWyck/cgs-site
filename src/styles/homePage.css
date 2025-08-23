@@ -61,6 +61,7 @@ main.homepage {
     display: flex;
     justify-content: center;
     position: relative;
+    filter: brightness(90%);
 }
 
 .mission-statement {
