@@ -12,9 +12,14 @@ html {
 	font-size: 16px;
 	font-family: "roboto", sans-serif;
 	--primary-color: #13315C;
-	--primary-color-gradient: hsl(197, 15%, 62%);
+	--primary-color-gradient: #90a4ad;
 	--text-dark: hsl(0, 0%, 5%);
 	--text-light: hsl(0, 0%, 95%);
 	--secondary-color: #EEF4ED;
-	--primary-gradient: linear-gradient(45deg, var(--primary-color) 10%, var(--primary-color-gradient));
+	/* --primary-gradient: linear-gradient(45deg, var(--primary-color) 10%, var(--primary-color-gradient)); */
+	--background-color: #DDF4E7;
+	--main-color: #124170;
+	--accent-color: #26667F;
+	--second-color: #67C090;
+	--primary-gradient: linear-gradient(45deg, var(--main-color) 10%, var(--second-color));
 }
