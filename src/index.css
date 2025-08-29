@@ -21,5 +21,6 @@ html {
 	--main-color: #124170;
 	--accent-color: #26667F;
 	--second-color: #67C090;
-	--primary-gradient: linear-gradient(45deg, var(--main-color) 10%, var(--second-color));
+	--primary-gradient: linear-gradient(var(--second-color), 40%, var(--main-color));
+
 }
