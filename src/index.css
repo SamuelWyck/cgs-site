@@ -16,5 +16,5 @@ html {
 	--text-dark: hsl(0, 0%, 5%);
 	--text-light: hsl(0, 0%, 95%);
 	--secondary-color: #EEF4ED;
-	--primary-gradient: linear-gradient(var(--primary-color), var(--secondary-color) 160%);
+	--primary-gradient: linear-gradient(var(--primary-color), var(--primary-color-gradient) 120%);
 }
