@@ -4,8 +4,14 @@
 }
 
 header nav a {
-    color: var(--text-dark);
+    color: var(--text-light);
+    outline: none;
 }
+
+header nav a:hover, header nav a:focus {
+    text-decoration: underline;
+}
+
 
 .menu-btn {
     cursor: pointer;
@@ -15,9 +21,6 @@ header nav a {
     outline: none;
     border-radius: 5px;
     display: none;
-}
-
-.menu-btn:hover, .menu-btn:focus {
     filter:
     brightness(0) 
     saturate(100%) 
