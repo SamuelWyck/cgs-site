@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+@font-face {
+    font-family: 'rollivregular';
+    src: url('./assets/fonts/rolliv.regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/rolliv.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
 	margin: 0;
@@ -15,6 +21,9 @@ html {
 	--primary-color-gradient: #90a4ad;
 	--text-dark: hsl(0, 0%, 5%);
 	--text-light: hsl(0, 0%, 95%);
-	--secondary-color: #EEF4ED;
-	--primary-gradient: linear-gradient(var(--primary-color), var(--primary-color-gradient) 120%);
+	--secondary-color: hsl(111, 24%, 94%);
+	--primary-gradient: linear-gradient(var(--primary-color), 80%, black 120%);
+	scrollbar-width: thin;
+	scroll-behavior: smooth;
+	scrollbar-color: var(--primary-color) var(--secondary-color);
 }
