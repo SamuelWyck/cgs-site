@@ -1,7 +1,7 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
 import HeaderMenu from "./headerMenu.jsx";
-import gooseImg from "../assets/goose.png";
+import logoImg from "../assets/logo_flag.png";
 
 
 
@@ -11,7 +11,7 @@ function Header() {
         <Link to="/">
             <div className="banner">
                 <div className="logo-wrapper">
-                    <img src={gooseImg} alt="goose" className="logo"/>
+                    <img src={logoImg} alt="goose" className="logo"/>
                 </div>
                 <p className="banner-title">
                     C<span className="long-title">yber </span>
@@ -24,7 +24,7 @@ function Header() {
             </div>
         </Link>
         <HeaderMenu />
-    </header>
+    </header>  
     );
 };
 
