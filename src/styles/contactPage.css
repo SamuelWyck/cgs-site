@@ -5,7 +5,8 @@ main.contact-page {
     justify-content: center;
     gap: 5rem;
     padding: 2rem 1rem 5rem 1rem;
-    background-image: linear-gradient(var(--primary-color) -40%, var(--secondary-color) 30% 65%, var(--primary-color) 142%);
+    background-color: var(--secondary-color);
+    /* background-image: linear-gradient(var(--primary-color) -40%, var(--secondary-color) 30% 65%, var(--primary-color) 142%); */
 }
 
 .contact-title {
@@ -23,8 +24,8 @@ main.contact-page {
 }
 
 .contact-tile {
-    background-image: 
-    linear-gradient(var(--primary-color) 10%, var(--primary-color-gradient));
+    background-image: var(--primary-gradient);
+    /* linear-gradient(var(--primary-color) 10%, var(--primary-color-gradient)); */
     color: var(--secondary-color);
     box-shadow: 0px 0px 10px 0px var(--primary-color);
     display: flex;
