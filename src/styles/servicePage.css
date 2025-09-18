@@ -12,4 +12,13 @@
     flex-direction: column;
     align-items: center;
     gap: 6rem;
+    padding: 1rem;
+}
+
+.service-page-title {
+    font-size: 1.8rem;
+    font-size: clamp(1.5rem, .5rem + 2vw, 1.8rem);
+    font-weight: bold;
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
 }
