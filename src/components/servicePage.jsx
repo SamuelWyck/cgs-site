@@ -21,12 +21,15 @@ function ServicePage() {
 
 
     return (
+    <>
+    <title>CGS: Services</title>
     <main className="service-page">
         <p className="service-page-title">Services we offer</p>
         <div className="services">
             {serviceCards.current}
         </div>
     </main>
+    </>
     );
 };
 
