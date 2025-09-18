@@ -41,6 +41,8 @@ main.homepage {
 
 .quote-section {
     padding: clamp(2rem, .5rem + 10vw, 14rem);
+    background-color: white;
+    /* background-image: linear-gradient(black -10%, 10%, var(--secondary-color), 90%, black 110%); */
 }
 
 .quote-wrapper {
@@ -56,7 +58,7 @@ main.homepage {
 }
 
 .mission-statement-section {
-    background-color: var(--secondary-color);
+    background-color: var(--text-light);
     padding: clamp(2rem, .5rem + 10vw, 14rem);
     display: flex;
     justify-content: center;
@@ -88,6 +90,58 @@ main.homepage {
     transform: skewX(-30deg);
     box-shadow: 0px 0px 20px 0px var(--primary-color);
     opacity: .7;
+}
+
+.services-section {
+    background-color: var(--primary-color);
+    padding: clamp(5rem, .5rem + 15vw, 18rem) 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: var(--primary-gradient);
+    color: var(--text-light);
+    position: relative;
+    font-size: clamp(1rem, .5rem + 2vw, 2rem);
+}
+
+.services-alert-wrapper {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-shadow: 4px 5px 5px black;
+}
+
+.services-alert-wrapper > a {
+    background-color: var(--text-light);
+    background-image: linear-gradient(var(--text-light), 70%, black 120%);
+    padding: .5rem 1rem;
+    text-shadow: none;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px black;
+    font-weight: bold;
+    outline: none;
+
+    will-change: color;
+    transition: all .1s linear;
+}
+
+.services-alert-wrapper > a:hover, 
+.services-alert-wrapper > a:focus {
+    box-shadow: none;
+    background-color: var(--text-light-hover-color);
+    color: var(--text-dark);
+}
+
+.services-background-img {
+    position: absolute;
+    top: 15%;
+    height: 70%;
+    opacity: .4;
+    right: 1%;
 }
 
 
