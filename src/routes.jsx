@@ -1,6 +1,7 @@
 import App from "./App.jsx";
 import HomePage from "./components/homePage.jsx";
 import ContactPage from "./components/contactPage.jsx";
+import ServicePage from "./components/servicePage.jsx";
 
 
 
@@ -17,6 +18,10 @@ const routes = [
             {
                 path: "/contact",
                 element: <ContactPage />
+            },
+            {
+                path: "/services",
+                element: <ServicePage />
             }
         ]
     }
