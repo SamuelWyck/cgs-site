@@ -46,11 +46,11 @@ function HeaderMenu() {
             <img className="menu-img" src={menuImg} alt="menu" />
         </button>
         <nav className="menu-drop-down hidden">
-            <Link to="/#">Services</Link>
+            <Link to="/services">Services</Link>
             <Link to="/contact">Contact us</Link>
         </nav>
         <nav className="header-nav">
-            <Link to="/#">Services</Link>
+            <Link to="/services">Services</Link>
             <Link to="/contact">Contact us</Link>
         </nav>
         </>
