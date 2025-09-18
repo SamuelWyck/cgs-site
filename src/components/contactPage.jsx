@@ -3,10 +3,16 @@ import "../assets/phone.svg";
 import phoneImg from "../assets/phone.svg";
 import emailImg from "../assets/email-multiple.svg";
 import houseImg from "../assets/home-city.svg";
+import scrollToTop from "../utils/scrollToTop.js";
+import { useEffect } from "react";
 
 
 
 function ContactPage() {
+    useEffect(function() {
+        scrollToTop();
+    }, []);
+
     return (
         <main className="contact-page">
             <title>CGS: Contact us</title>

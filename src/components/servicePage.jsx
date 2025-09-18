@@ -1,13 +1,17 @@
 import "../styles/servicePage.css";
 import serviceData from "../data/servicesData.js";
 import ServiceCard from "./serviceCard.jsx";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
+import scrollToTop from "../utils/scrollToTop.js";
 
 
 
 function ServicePage() {
     const serviceCards = useRef(getServiceCards(serviceData));
 
+    useEffect(function() {
+        scrollToTop();
+    }, []);
 
     function getServiceCards(services) {
         const serviceCards = [];
