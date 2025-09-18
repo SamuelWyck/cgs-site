@@ -2,10 +2,18 @@ import "../styles/homePage.css";
 import planeImg from "../assets/plane.jpg";
 import widePlaneImg from "../assets/plane-wide.jpeg";
 import smallPlaneImg from "../assets/plane-small.jpg";
+import logoImg from "../assets/logo_flag.png";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import scrollToTop from "../utils/scrollToTop.js";
 
 
 
 function HomePage() {
+    useEffect(function() {
+        scrollToTop();
+    }, []);
+
     return (
     <main className="homepage">
         <section className="hero">
@@ -27,6 +35,13 @@ function HomePage() {
                     Illum vero ipsum fugit doloremque eius odit optio eligendi rerum sequi neque, 
                     sunt odio dolore illo eveniet exercitationem impedit, eos corrupti consequatur!
                 </p>
+            </div>
+        </section>
+        <section className="services-section">
+            <img className="services-background-img" src={logoImg} alt="" />
+            <div className="services-alert-wrapper">
+                <p className="services-alert">Have a problem? We have solutions!</p>
+                <Link to="/services">See our services</Link>
             </div>
         </section>
         <section className="mission-statement-section">
