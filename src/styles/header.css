@@ -35,11 +35,12 @@ header a {
     font-family: 'rollivregular';
     font-size: 1.5rem;
     letter-spacing: .05rem;
-    background-color: var(--text-light);
+    /* background-color: var(--text-light);
+    background-color: rgb(101, 236, 101); */
     padding: .2rem .5rem;
     text-align: center;
-    color: var(--text-dark);
-    border-radius: 0 10px 10px 10px;
+    color: var(--secondary-color);
+    /* border-radius: 0 10px 10px 10px; */
 }
 
 .short-title {
