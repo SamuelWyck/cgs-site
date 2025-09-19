@@ -1,7 +1,7 @@
 const serviceData = [
     {
         title: "This is the main service title",
-        img: "/src/assets/servicesImages/camera.jpg",
+        img: "/assets/servicesImages/camera.jpg",
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -19,7 +19,7 @@ const serviceData = [
     },
     {
         title: "This is the main service title",
-        img: "/src/assets/servicesImages/camera.jpg",
+        img: "/assets/servicesImages/camera.jpg",
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -37,7 +37,7 @@ const serviceData = [
     },
     {
         title: "This is the main service title",
-        img: "/src/assets/servicesImages/camera.jpg",
+        img: "/assets/servicesImages/camera.jpg",
         bulletPoints: [
             {
                 title: "sub-service title",
