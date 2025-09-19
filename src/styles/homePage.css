@@ -12,6 +12,7 @@ main.homepage {
     animation-duration: 1ms;
     animation-fill-mode: both;
     animation-direction: reverse;
+    /* background-image: linear-gradient(white, black 150%); */
 }
 
 .hero picture * {
@@ -37,12 +38,12 @@ main.homepage {
     font-size: clamp(1rem, .5rem + 2vw, 2rem);
     text-align: center;
     font-style: italic;
+    text-shadow: 2px 2px 5px black;
 }
 
 .quote-section {
     padding: clamp(2rem, .5rem + 10vw, 14rem);
     background-color: white;
-    /* background-image: linear-gradient(black -10%, 10%, var(--secondary-color), 90%, black 110%); */
 }
 
 .quote-wrapper {
@@ -64,6 +65,11 @@ main.homepage {
     justify-content: center;
     position: relative;
     filter: brightness(90%);
+
+    /* background-image: url("/src/assets/white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 .mission-statement {
