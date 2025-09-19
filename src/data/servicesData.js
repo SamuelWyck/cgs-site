@@ -1,7 +1,10 @@
+import serviceImg from "../assets/servicesImages/camera.jpg";
+
+
 const serviceData = [
     {
         title: "This is the main service title",
-        img: "/assets/servicesImages/camera.jpg",
+        img: serviceImg,
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -19,7 +22,7 @@ const serviceData = [
     },
     {
         title: "This is the main service title",
-        img: "/assets/servicesImages/camera.jpg",
+        img: serviceImg,
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -37,7 +40,7 @@ const serviceData = [
     },
     {
         title: "This is the main service title",
-        img: "/assets/servicesImages/camera.jpg",
+        img: serviceImg,
         bulletPoints: [
             {
                 title: "sub-service title",
