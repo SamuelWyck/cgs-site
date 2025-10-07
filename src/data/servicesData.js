@@ -1,10 +1,13 @@
-import serviceImg from "../assets/servicesImages/camera.jpg";
+import devOpsImg from "../assets/servicesImages/devOps.png";
+import cloudSecurityImg from "../assets/servicesImages/cloudSecurity.jpg";
+import cyberSecurityImg from "../assets/servicesImages/cyberSecurity.jpg";
+import codingImg from "../assets/servicesImages/coding.jpg";
 
 
 const serviceData = [
     {
         title: "Cybersecurity & Risk Management",
-        img: serviceImg,
+        img: cyberSecurityImg,
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -34,7 +37,7 @@ const serviceData = [
     },
     {
         title: "IT Audit, Cloud Security, and GRC",
-        img: serviceImg,
+        img: cloudSecurityImg,
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -60,7 +63,7 @@ const serviceData = [
     },
     {
         title: "Software Engineering & Application Development",
-        img: serviceImg,
+        img: codingImg,
         bulletPoints: [
             {
                 title: "sub-service title",
@@ -86,7 +89,7 @@ const serviceData = [
     },
     {
         title: "DevSecOps & Infrastructure",
-        img: serviceImg,
+        img: devOpsImg,
         bulletPoints: [
             {
                 title: "sub-service title",
