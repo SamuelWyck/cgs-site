@@ -5,6 +5,7 @@
     gap: 4rem;
     padding: 5rem 0;
     background-color: var(--text-light);
+    background-image: linear-gradient(white, 20%, var(--text-light));
 }
 
 .services {
