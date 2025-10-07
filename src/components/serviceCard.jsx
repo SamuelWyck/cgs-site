@@ -12,7 +12,7 @@ function ServiceCard({service}) {
         for (let bullet of service.bulletPoints) {
             bullets.push(
                 <li className="service-bullet" key={bullet.title}>
-                    <p className="bullet-title">{bullet.title}</p>
+                    {/* <p className="bullet-title">{bullet.title}</p> */}
                     <p className="bullet-info">{bullet.description}</p>
                 </li>
             );
