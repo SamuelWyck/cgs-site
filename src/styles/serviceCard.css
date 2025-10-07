@@ -15,11 +15,10 @@
 }
 
 .service-title {
-    font-size: 1.3rem;
-    font-size: clamp(1.1rem, .5rem + 2vw, 1.3rem);
+    font-size: clamp(1.1rem, .5rem + 2vw, 1.4rem);
     font-weight: bold;
-    color: var(--text-dark);
-    max-width: min(37ch, 100%);
+    color: var(--primary-color);
+    max-width: 100%;
     word-break: break-word;
 
     animation-name: slide-right;
@@ -52,11 +51,11 @@
     border-radius: 20px;
     width: 100%;
     background-color: white;
-    padding: 1rem 1rem 1rem 4rem;
+    padding: 2rem 2rem 2rem 4rem;
     align-self: start;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 3rem;
     list-style: none;
     color: var(--text-dark);
 
@@ -70,7 +69,8 @@
 }
 
 .service-bullet {
-    display: inline;
+    display: flex;
+    align-items: center;
     position: relative;
 }
 
@@ -96,7 +96,7 @@
 
 .bullet-info {
     font-size: clamp(.9rem, .4rem + 2vw, 1.1rem);
-    opacity: .7;
+    opacity: .8;
 }
 
 
