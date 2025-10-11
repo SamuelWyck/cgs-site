@@ -30,6 +30,7 @@ function HomePage() {
         </section>
         <section className="quote-section">
             <div className="quote-wrapper">
+                <div className="quote-bar"></div>
                 <p className="quote">
                     Cyber Goose Systems LLC is a a cutting edge information technology and cybersecurity service provider. 
                     Founded in 2025, our mission is to deliver robust IT solutions and Comprehensive Cybersecurity services to 
