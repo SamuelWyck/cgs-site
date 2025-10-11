@@ -31,7 +31,7 @@ function HomePage() {
         <section className="quote-section">
             <div className="quote-wrapper">
                 <p className="quote">
-                    Cyber  Goose Sytems LLC is a a cutting edge information technologoy and cybersecurity service provider. 
+                    Cyber  Goose Systems LLC is a a cutting edge information technology and cybersecurity service provider. 
                     Founded in 2025, our mission is to deliver robust IT solutions and Comprehensive Cybersecurity services to 
                     businesses of all sizes. We are committed to helping our clients navigate the complexities of the Digital landscape, 
                     ensuring their systems are secure, efficient and compliant with the industry standards.
