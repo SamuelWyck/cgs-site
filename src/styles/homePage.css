@@ -44,6 +44,7 @@ main.homepage {
 .quote-section {
     padding: clamp(0rem, .5rem + 10vw, 12rem);
     background-color: white;
+    overflow: hidden;
 }
 
 .quote-wrapper {
@@ -71,7 +72,20 @@ main.homepage {
     width: 15%;
     background-color: var(--primary-color);
     opacity: .8;
+    top: 0;
+    left: 50%;
     transform: rotate(-45deg);
+}
+
+.quote-bar-2 {
+    position: absolute;
+    bottom: 0;
+    height: 600px;
+    width: 15%;
+    left: 50%;
+    background-color: var(--primary-color);
+    opacity: .8;
+    transform: rotate(45deg);
 }
 
 .mission-statement-section {
