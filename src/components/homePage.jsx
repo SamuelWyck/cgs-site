@@ -31,9 +31,10 @@ function HomePage() {
         <section className="quote-section">
             <div className="quote-wrapper">
                 <p className="quote">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Illum vero ipsum fugit doloremque eius odit optio eligendi rerum sequi neque, 
-                    sunt odio dolore illo eveniet exercitationem impedit, eos corrupti consequatur!
+                    Cyber  Goose Sytems LLC is a a cutting edge information technologoy and cybersecurity service provider. 
+                    Founded in 2025, our mission is to deliver robust IT solutions and Comprehensive Cybersecurity services to 
+                    businesses of all sizes. We are committed to helping our clients navigate the complexities of the Digital landscape, 
+                    ensuring their systems are secure, efficient and compliant with the industry standards.
                 </p>
             </div>
         </section>
