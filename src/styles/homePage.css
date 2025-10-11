@@ -42,7 +42,7 @@ main.homepage {
 }
 
 .quote-section {
-    padding: clamp(2rem, .5rem + 10vw, 14rem);
+    padding: clamp(0rem, .5rem + 10vw, 12rem);
     background-color: white;
 }
 
@@ -55,7 +55,12 @@ main.homepage {
 .quote {
     font-size: clamp(1rem, .5rem + 2vw, 2rem);
     font-weight: bold;
-    color: var(--text-dark);
+    color: var(--text-light);
+    background-color: var(--primary-color);
+    border-radius: 60px;
+    padding: 2rem;
+    box-shadow: 0px 0px 5px 0px var(--text-dark);
+    background-image: linear-gradient(var(--primary-color), 80%, var(--text-dark));
 }
 
 .mission-statement-section {
