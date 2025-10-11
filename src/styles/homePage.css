@@ -73,14 +73,14 @@ main.homepage {
     width: 15%;
     background-color: var(--primary-color);
     opacity: .8;
-    top: -10%;
+    top: 0%;
     left: 50%;
     transform: rotate(-45deg);
 }
 
 .quote-bar-2 {
     position: absolute;
-    bottom: -10%;
+    bottom: 0%;
     height: 600px;
     width: 15%;
     left: 50%;
