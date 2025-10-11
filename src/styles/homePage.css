@@ -64,6 +64,7 @@ main.homepage {
     box-shadow: 0px 0px 5px 0px var(--text-dark);
     background-image: linear-gradient(var(--primary-color), 80%, var(--text-dark));
     z-index: 1;
+    /* visibility: hidden; */
 }
 
 .quote-bar {
@@ -72,14 +73,14 @@ main.homepage {
     width: 15%;
     background-color: var(--primary-color);
     opacity: .8;
-    top: 0;
+    top: -10%;
     left: 50%;
     transform: rotate(-45deg);
 }
 
 .quote-bar-2 {
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
     height: 600px;
     width: 15%;
     left: 50%;
