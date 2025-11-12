@@ -21,4 +21,5 @@
     font-weight: bold;
     color: var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
+    z-index: 1;
 }
