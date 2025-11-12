@@ -8,6 +8,7 @@ import Footer from './components/footer.jsx';
 function App() {
 	return (
 		<>
+		<div className="background-image"></div>
 		<Header />
 		<Outlet />
 		<Footer />
